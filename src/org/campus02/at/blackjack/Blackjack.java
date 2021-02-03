@@ -18,7 +18,10 @@ public class Blackjack {
 
     public boolean addCard(Player player, Integer cardValue) {
         if (players.containsKey(player)) {
-            players.put(player, cardValue);
+            int cardvalue;
+            cardvalue=players.get(player);
+            cardvalue += cardValue;
+            players.put(player, cardvalue);
             return true;
         } else return false;
     }

@@ -7,6 +7,7 @@ public class DemoBlackjack {
         Spiel.addPlayer(Nik);
         System.out.println(Spiel.getValue(Nik));
         System.out.println(Spiel.addCard(Nik, 2));
+        System.out.println(Spiel.addCard(Nik, 2));
         System.out.println(Spiel.getValue(Nik));
 
         System.out.println(Nik);
